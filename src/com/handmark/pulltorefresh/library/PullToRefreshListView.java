@@ -15,6 +15,8 @@
  *******************************************************************************/
 package com.handmark.pulltorefresh.library;
 
+import java.util.ArrayList;
+
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -333,5 +335,6 @@ public class PullToRefreshListView extends PullToRefreshAdapterViewBase<ListView
 		}
 
 	}
+	
 
 }
